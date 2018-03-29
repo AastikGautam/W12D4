@@ -16,7 +16,7 @@ private static int data[] = {1,4,13,7,8,11,10,15,21,19,25,35,30};
 	}
 	
 	public static void main (String [] args) {
-		int goal = 7;
+		int goal = 10;
 		int result = recursiveBinarySearch(data, goal, 0, data.length-1);
 		if (result < 0) System.out.println("The search could not find: " + goal);
 		else System.out.println("The goal of " + goal + " was found at index: " + result);
